@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-    return "Hello, Flask on Vercel!"
+    return "Hello, Flask, a new test to enable data exchange!"
 
 @app.route('/add_card', methods=['POST'])
 def add_card():
